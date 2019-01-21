@@ -1,4 +1,4 @@
-""" All the data will be stored here """"
+""" All the data will be stored here """
 
 users = []
 
@@ -26,7 +26,6 @@ class UserModel():
         users.append(user)
         return user
 
-
 class CommentsModel():
 
     def create_comment(self, author, comment):
@@ -37,3 +36,4 @@ class CommentsModel():
 
         comments.append(comment)
         return comment
+
