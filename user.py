@@ -8,6 +8,8 @@ class User:
     def signUp(self):
 
         username = input("please enter your username:")
+        if len(username)==0:
+            return "Username is required"
         email = input("please enter your email:")
         em = validate.validate_email(email)
         if not em:
