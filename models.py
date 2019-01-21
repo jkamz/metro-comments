@@ -25,3 +25,15 @@ class UserModel():
 
         users.append(user)
         return user
+
+class CommentsModel():
+
+    def create_comment(self, author, comment):
+        comment = {
+            "author": author,
+            "comment": comment
+        }
+
+        comments.append(comment)
+        return comment
+
