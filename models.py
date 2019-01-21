@@ -10,7 +10,7 @@ class UserModel():
     user model
     """
 
-    def signup(self, username, email, password, confirm_password, role):
+    def signup(self, username, email, password, role):
         """
         user signup model
         """
@@ -20,7 +20,6 @@ class UserModel():
             "username": username,
             "email": email,
             "password": password,
-            "confirm_password": confirm_password,
             "role": role
         }
 
